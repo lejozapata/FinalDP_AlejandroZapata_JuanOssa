@@ -7,6 +7,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FinalWorkshop", "FinalWorks
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinalWorkshop.Core", "FinalWorkshop.Core\FinalWorkshop.Core.csproj", "{AE9AA584-7AAE-4A09-A8AB-7D3D5591B87F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinalWorkshop.Android", "FinalWorkshop.Android\FinalWorkshop.Android.csproj", "{576EECE9-E3AC-40A4-9B43-EE10C9BBEDB9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,12 +19,19 @@ Global
 		{AE9AA584-7AAE-4A09-A8AB-7D3D5591B87F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE9AA584-7AAE-4A09-A8AB-7D3D5591B87F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE9AA584-7AAE-4A09-A8AB-7D3D5591B87F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{576EECE9-E3AC-40A4-9B43-EE10C9BBEDB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{576EECE9-E3AC-40A4-9B43-EE10C9BBEDB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{576EECE9-E3AC-40A4-9B43-EE10C9BBEDB9}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{576EECE9-E3AC-40A4-9B43-EE10C9BBEDB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{576EECE9-E3AC-40A4-9B43-EE10C9BBEDB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{576EECE9-E3AC-40A4-9B43-EE10C9BBEDB9}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{AE9AA584-7AAE-4A09-A8AB-7D3D5591B87F} = {7B734572-4273-4B27-9896-B05790A7D8AF}
+		{576EECE9-E3AC-40A4-9B43-EE10C9BBEDB9} = {7B734572-4273-4B27-9896-B05790A7D8AF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {67C6DA43-5E7A-43E2-BE2A-74D673CF3BD5}
