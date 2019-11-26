@@ -13,7 +13,7 @@ namespace FinalWorkshop.Core
                 .AsInterfaces()
                 .RegisterAsLazySingleton();
 
-            RegisterAppStart<TipViewModel>();
+            RegisterAppStart<LogicViewModel>();
         }
 
     }
