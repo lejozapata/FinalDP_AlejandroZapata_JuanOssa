@@ -6,16 +6,18 @@ namespace QuadraticEquations.Core.Services
 {
     public class QuadraticEquationsService : IQuadraticEquationsService
     {
-        public double GetResult(double a, double b, double c)
+       public double a, b, c;
+        public double GetResult(double x1, double x2)
         {
+            
             double deltaRoot = Math.Sqrt(b * b - 4 * a * c);
 
             if (deltaRoot >= 0)
             {
-                double x1 = (-b + deltaRoot) / 2 * a;
-                double x2 = (-b + deltaRoot) / 2 * a;
+                x1 = (-b + deltaRoot) / 2 * a;
+                x2 = (-b + deltaRoot) / 2 * a;
             }
-            return GetResult(a, b, c);
+            return GetResult(x1,x2);
             
         }
     }

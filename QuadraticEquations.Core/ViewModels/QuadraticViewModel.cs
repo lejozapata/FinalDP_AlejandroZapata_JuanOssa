@@ -66,12 +66,15 @@ namespace QuadraticEquations.Core.ViewModels
         public async override Task Initialize()
         {
             await base.Initialize();
+            X1 = 0;
+            X2 = 0;
+            Calculate();
         }
 
         private void Calculate()
         {
-            X1 = _quadraticEquationsService.GetResult(A, B, C);
-            X2 = _quadraticEquationsService.GetResult(A, B, C);
+            X1 = _quadraticEquationsService.GetResult(X1, X2);
+            X2 = _quadraticEquationsService.GetResult(X1, X2);
         }
     }
 }

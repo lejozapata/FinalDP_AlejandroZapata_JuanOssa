@@ -11,7 +11,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinalWorkshop.Android", "Fi
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "QuadraticEquations", "QuadraticEquations", "{8B9AA3EB-B9EB-4FB5-AD11-6DAB4BB32B2F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuadraticEquations.Core", "QuadraticEquations.Core\QuadraticEquations.Core.csproj", "{C7E37BD6-A8F8-4DC7-804D-151F6567BE26}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuadraticEquations.Core", "QuadraticEquations.Core\QuadraticEquations.Core.csproj", "{C7E37BD6-A8F8-4DC7-804D-151F6567BE26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuadraticEquations.Android", "QuadraticEquations.Android\QuadraticEquations.Android.csproj", "{0BFB5402-8526-436E-B369-481F80D418C8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,12 @@ Global
 		{C7E37BD6-A8F8-4DC7-804D-151F6567BE26}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C7E37BD6-A8F8-4DC7-804D-151F6567BE26}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C7E37BD6-A8F8-4DC7-804D-151F6567BE26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BFB5402-8526-436E-B369-481F80D418C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BFB5402-8526-436E-B369-481F80D418C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BFB5402-8526-436E-B369-481F80D418C8}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{0BFB5402-8526-436E-B369-481F80D418C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BFB5402-8526-436E-B369-481F80D418C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BFB5402-8526-436E-B369-481F80D418C8}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -41,6 +49,7 @@ Global
 		{AE9AA584-7AAE-4A09-A8AB-7D3D5591B87F} = {7B734572-4273-4B27-9896-B05790A7D8AF}
 		{576EECE9-E3AC-40A4-9B43-EE10C9BBEDB9} = {7B734572-4273-4B27-9896-B05790A7D8AF}
 		{C7E37BD6-A8F8-4DC7-804D-151F6567BE26} = {8B9AA3EB-B9EB-4FB5-AD11-6DAB4BB32B2F}
+		{0BFB5402-8526-436E-B369-481F80D418C8} = {8B9AA3EB-B9EB-4FB5-AD11-6DAB4BB32B2F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {67C6DA43-5E7A-43E2-BE2A-74D673CF3BD5}

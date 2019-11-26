@@ -6,6 +6,6 @@ namespace QuadraticEquations.Core.Services
 {
    public interface IQuadraticEquationsService
     {
-        double GetResult(double a, double b, double c);
+        double GetResult(double x1, double x2);
     }
 }
