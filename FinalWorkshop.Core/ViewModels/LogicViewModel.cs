@@ -5,6 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Input;
 
 namespace FinalWorkshop.Core.ViewModels
 {
@@ -23,18 +24,6 @@ namespace FinalWorkshop.Core.ViewModels
             _calculationService = calculationService;
         }
 
-        public override async Task Initialize()
-        {
-            await base.Initialize();
-            /*
-             Here your initialize attributes
-             Example:
-            SubTotal = 100;
-            Generosity = 10;
-            Recalculate();
-            */
-
-        }
 
         public double A
         {
@@ -64,6 +53,26 @@ namespace FinalWorkshop.Core.ViewModels
         {
             get => _x2;
             set => SetProperty(ref _x2, value);
+        }
+
+        public ICommand CalculateCommand
+        {
+            get
+            {
+                _CalculateCommand = _CalculateCommand ?? new MvxCommand(Calculate);
+                return _CalculateCommand;
+            }
+        }
+
+        public async override Task Initialize()
+        {
+            await base.Initialize();
+        }
+
+        private void Calculate()
+        {
+            X1 = _calculationService.GetResult(A, B, C);
+            X2 = _calculationService.GetResult(A, B, C);
         }
 
 
