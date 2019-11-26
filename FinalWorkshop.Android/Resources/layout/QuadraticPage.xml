@@ -17,7 +17,7 @@
         android:inputType="number|numberDecimal"
         android:textSize="24dp"
         android:gravity="right"
-        local:MvxBind="" />
+        local:MvxBind="Text A" />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -29,7 +29,7 @@
         android:inputType="number|numberDecimal"
         android:textSize="24dp"
         android:gravity="right"
-        local:MvxBind="" />
+        local:MvxBind="Text B" />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -41,7 +41,7 @@
         android:inputType="number|numberDecimal"
         android:textSize="24dp"
         android:gravity="right"
-        local:MvxBind="" />
+        local:MvxBind="Text C" />
     <Button
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
@@ -59,7 +59,7 @@
         android:textColor="@android:color/holo_blue_dark"
         android:textSize="24dp"
         android:gravity="center"
-        local:MvxBind="Text Tip"
+        local:MvxBind="Text X1"
         android:layout_marginTop="20dp"
         android:layout_marginBottom="20dp"/>
 <TextView
@@ -74,7 +74,7 @@
         android:textColor="@android:color/holo_blue_dark"
         android:textSize="24dp"
         android:gravity="center"
-        local:MvxBind="Text Tip"
+        local:MvxBind="Text X2"
         android:layout_marginTop="20dp"
         android:layout_marginBottom="20dp"/>
 </LinearLayout>

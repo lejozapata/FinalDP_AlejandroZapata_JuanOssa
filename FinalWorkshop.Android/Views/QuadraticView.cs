@@ -7,7 +7,7 @@ using MvvmCross.Platforms.Android.Views;
 namespace FinalWorkshop.Android.Views
 {
     [Activity(Label = "@string/app_name")]
-    public class QuadraticView : MvxActivity<TipViewModel>
+    public class QuadraticView : MvxActivity<LogicViewModel>
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {
