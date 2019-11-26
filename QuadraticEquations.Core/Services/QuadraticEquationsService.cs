@@ -15,7 +15,8 @@ namespace QuadraticEquations.Core.Services
                 double x1 = (-b + deltaRoot) / 2 * a;
                 double x2 = (-b + deltaRoot) / 2 * a;
             }
-            return GetResult(a,b,c);
+            return GetResult(a, b, c);
+            
         }
     }
 }
