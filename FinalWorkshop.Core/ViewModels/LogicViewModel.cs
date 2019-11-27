@@ -73,8 +73,6 @@ namespace FinalWorkshop.Core.ViewModels
         private void Calculate()
         {
             X1 = _calculationService.GetResultX1(A, B, C, X1);
-            //X1 = 5;
-            //X2 = 8;
             X2 = _calculationService.GetResultX2(A, B, C, X2);
 
         }
