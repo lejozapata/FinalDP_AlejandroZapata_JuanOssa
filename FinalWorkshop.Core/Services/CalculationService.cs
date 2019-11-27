@@ -9,16 +9,36 @@ namespace FinalWorkshop.Core.Services
             return subTotal * (decimal)(generosity / 100);
          }
 
-        public double GetResult(double a, double b, double c)
+        public double GetResultX1(double a, double b, double c, double x1)
+        {
+            double deltaRoot = Math.Sqrt(b * b - 4 * a * c);
+
+            if (deltaRoot > 0)
+            {
+                x1 = (-b + deltaRoot) / 2 * a;
+
+            }
+            else if(deltaRoot == 0)
+            {
+                x1 = -b / (2 * a);
+            }
+            return x1;
+        }
+
+        public double GetResultX2(double a, double b, double c, double x2)
         {
             double deltaRoot = Math.Sqrt(b * b - 4 * a * c);
 
             if (deltaRoot >= 0)
             {
-                double x1 = (-b + deltaRoot) / 2 * a;
-                double x2 = (-b + deltaRoot) / 2 * a;
+                x2 = (-b - deltaRoot) / 2 * a;
             }
-            return GetResult(a, b, c);
+            else if (deltaRoot == 0)
+            {
+                x2 = -b / (2 * a);
+            }
+
+            return x2;
         }
     }
 }
