@@ -4,10 +4,6 @@ namespace FinalWorkshop.Core.Services
 {
     public class CalculationService : ICalculationService
     {
-         public decimal TipAmount(decimal subTotal, double generosity)
-         {
-            return subTotal * (decimal)(generosity / 100);
-         }
 
         public double GetResultX1(double a, double b, double c, double x1)
         {
@@ -37,7 +33,6 @@ namespace FinalWorkshop.Core.Services
             {
                 x2 = -b / (2 * a);
             }
-
             return x2;
         }
     }
