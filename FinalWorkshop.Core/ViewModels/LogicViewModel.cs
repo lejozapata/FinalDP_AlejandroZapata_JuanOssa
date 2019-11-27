@@ -24,7 +24,6 @@ namespace FinalWorkshop.Core.ViewModels
             _calculationService = calculationService;
         }
 
-
         public double A
         {
             get => _a;
@@ -77,6 +76,8 @@ namespace FinalWorkshop.Core.ViewModels
             X2 = _calculationService.GetResultX2(A, B, C, X2);
 
         }
+
+
 
 
     }
