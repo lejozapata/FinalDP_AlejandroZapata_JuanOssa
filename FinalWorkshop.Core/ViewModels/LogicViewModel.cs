@@ -1,9 +1,6 @@
 ﻿using FinalWorkshop.Core.Services;
 using MvvmCross.Commands;
 using MvvmCross.ViewModels;
-using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
 
