@@ -63,6 +63,11 @@ namespace FinalWorkshop.Core.ViewModels
         public async override Task Initialize()
         {
             await base.Initialize();
+            A = 2;
+            B = 8;
+            C = 3;
+            X1 = 0;
+            X2 = 0;
         }
 
         private void Calculate()

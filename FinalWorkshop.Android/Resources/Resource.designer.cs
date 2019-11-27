@@ -4120,9 +4120,6 @@ namespace FinalWorkshop.Android
 			// aapt resource value: 0x7F0B0039
 			public const int support_simple_spinner_dropdown_item = 2131427385;
 			
-			// aapt resource value: 0x7F0B003A
-			public const int TipPage = 2131427386;
-			
 			static Layout()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
